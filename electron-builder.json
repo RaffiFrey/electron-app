@@ -1,0 +1,15 @@
+﻿{
+  "appId": "com.rfrey.learn-electron",
+  "files": ["dist-electron", "dist-react"],
+  "icon": "./desktopicon.svg",
+  "mac": {
+    "target": "dmg"
+  },
+  "linux":{
+    "target": "AppImage",
+    "category": "Utility"
+  },
+  "win": {
+    "target": ["portable", "msi"]
+  }
+}
