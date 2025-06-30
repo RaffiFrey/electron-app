@@ -1,6 +1,9 @@
 ﻿{
   "appId": "com.rfrey.learn-electron",
   "files": ["dist-electron", "dist-react"],
+  "extraResources": [
+    "dist-electron/preload.cjs"
+  ],
   "icon": "./desktopicon.svg",
   "mac": {
     "target": "dmg"
